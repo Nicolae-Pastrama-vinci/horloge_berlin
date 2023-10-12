@@ -8,4 +8,9 @@ describe("A suite of tests for the berlin clock of the main class", function(){
 
         expect(result).toBe("*");
     })
+    it("clock function should return ** ", function(){
+        let result = main.clock();
+        
+        expect(result).toBe("**");
+    })
 });
