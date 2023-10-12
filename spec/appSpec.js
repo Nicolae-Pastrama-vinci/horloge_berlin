@@ -7,10 +7,15 @@ describe("A suite of tests for the berlin clock of the main class", function(){
         let result = main.clock(1);
 
         expect(result).toBe("*");
-    })
+    });
     it("clock function should return ** ", function(){
         let result = main.clock(2);
         
         expect(result).toBe("**");
-    })
+    });
+    it("clock function should return *** ", function(){
+        let result = main.clock(3);
+        
+        expect(result).toBe("***");
+    });
 });
