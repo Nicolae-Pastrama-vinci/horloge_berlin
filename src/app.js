@@ -1,5 +1,6 @@
 export class Main {
-    clock() {
-        return "*";
+    clock(minute) {
+        if(minute === 1)return "*";
+        return "**";
     }
 }
